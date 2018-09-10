@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+            <link rel="stylesheet" type="text/css" href="estilo1.css">
+
+            <title>AC4</title>
+    
+        </head>
+
+        <body>
+
+                <div id="area"> 
+                   
+        
+
+                    <form id="formulario" autocomplete="off">
+                        
+                        <fieldset>
+
+                        <legend>Formulário para cadastro de alunos</legend>
+                        
+                        <input class="nome_completo" placeholder="Nome Completo" required maxlength="20"><br><br>
+                        <input class="endereço"placeholder="Endereço" required maxlength="30"><br><br>
+                        <input class="complemento" placeholder="Complemento" maxlength="20"><br><br>
+                        <input class="cidade" placeholder="Cidade" required maxlength="30"> 
+                        <select class="uf">
+                            <option class="uf">AC</option>
+                            <option class="uf">AL</option>
+                            <option class="uf">AP</option>
+                            <option class="uf">AM</option>
+                            <option class="uf">BA</option>
+                            <option class="uf">CE</option>
+                            <option class="uf">DF</option>
+                            <option class="uf">ES</option>
+                            <option class="uf">GO</option>
+                            <option class="uf">MA</option>
+                            <option class="uf">MT</option>
+                            <option class="uf">MS</option>
+                            <option class="uf">MG</option>
+                            <option class="uf">PA</option>
+                            <option class="uf">PB</option>
+                            <option class="uf">PR</option>
+                            <option class="uf">PE</option>
+                            <option class="uf">PI</option>
+                            <option class="uf">RJ</option>
+                            <option class="uf">RN</option>
+                            <option class="uf">RS</option>
+                            <option class="uf">RO</option>
+                            <option class="uf">RR</option>
+                            <option class="uf">SC</option>
+                            <option class="uf">SP</option>
+                            <option class="uf">SE</option>
+                            <option class="uf">TO</option>
+    
+                        </select><br><br>
+                        
+                        <input class="rg" placeholder="RG" required maxlength="9"> <input class="cpf" placeholder="CPF" required maxlength="11"><br><br>
+                        <input class="email" placeholder="E-mail" required maxlength="40"><br>
+                        <input type="checkbox" name="receber_email"> <span class="textos">Quero receber notícias no meu e-mail.</span><br><br>
+                        
+                        <span class="textos">Redes Sociais*:</span> 
+                        <input type="checkbox"name="Facebook"><img class="logo_face"src="face.png"/> <span class="textos">Facebook</span>
+                        <input type="checkbox" name="Twitter"><img class="logo_twitter"src="twitter.png"/> <span class="textos">Twitter</span>
+                        <input type="checkbox" name="WhatsApp"><img class="logo_whats"src="whats.png"/> <span class="textos">WhatsApp</span>
+                        <input type="checkbox" name="Outros"><span class="textos">Outros</span><br><br>
+                       
+                        <span class="textos">Cursos*:</span>
+                        <input type="radio" name="genero" value="Redes"><span class="textos">Redes</span>
+                        <input type="radio" name="genero" value="SI"><span class="textos">SI</span>
+                        <input type="radio" name="genero" value="ADS"><span class="textos">ADS</span><br><br>
+                        <textarea class="area_texto" rows="5" cols="25" placeholder="Escreva um texto de no máximo 100 caracteres dizendo o motivo da sua inscrição na faculdade." required maxlength="100"></textarea><br><br>
+                        <input class="enviar" type="submit" value="ENVIAR">
+                   
+                    </fieldset>
+                    </form>
+
+
+                </div>
+
+
+        </body>
+
+</html>

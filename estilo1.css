@@ -1,0 +1,305 @@
+﻿*{
+    font-family: Arial;
+    color: white;
+}
+
+body{
+    background-image: url(fundo.jpg);
+}
+
+/*--------------------Div_Area--------------------*/
+#area{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    
+
+}
+
+/*--------------------Formulario--------------------*/
+#formulario{
+    margin: auto;
+    margin-top: 100px;
+    
+      
+}
+/*--------------------Fieldset (onde estao agrupado os elementos)--------------------*/
+fieldset{
+    border:solid;
+    border-width: 7px;
+    border-color: black;
+}
+
+/*--------------------cabeçalho do Form--------------------*/
+legend{
+    font-weight: bold;
+    margin: auto;
+    
+}
+
+/*--------------------NOME--------------------*/
+.nome_completo{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width:465px;
+    font-style: italic;
+    color: black;
+
+    
+}
+
+.nome_completo:hover{
+    border-color:  	#34828F;
+    background-color:  white;
+    font-weight: bold;
+    
+}
+
+.nome_completo:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------ENDEREÇO--------------------*/
+.endereço{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width:465px;
+    font-style: italic;
+    color: black;
+}   
+
+.endereço:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.endereço:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------COMPLEMENTO--------------------*/
+.complemento{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: blackE;
+    width:465px;
+    font-style: italic;
+    color: black;
+}
+
+.complemento:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.complemento:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------CIDADE--------------------*/
+.cidade{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width: 400px;
+    font-style: italic;
+    color: black;
+}
+
+.cidade:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.cidade:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------UF--------------------*/
+.uf{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width: 60px;
+    font-style: italic;
+    color: black;
+}
+
+.uf:hover{
+    color:black;
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+    
+}
+
+.uf:focus{
+    color:black;
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+    
+
+}
+
+/*--------------------RG--------------------*/
+.rg{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width: 230px;
+    font-style: italic;
+    color: black;
+}
+
+.rg:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.rg:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------CPF--------------------*/
+.cpf{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width: 222px;
+    font-style: italic;
+    color: black;
+}
+
+.cpf:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.cpf:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------E-MAIL--------------------*/
+.email{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width: 465px;
+    font-style: italic;
+    color: black;
+}
+
+.email:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.email:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+
+}
+
+/*--------------------AREA TEXTO--------------------*/
+.area_texto{
+    background-color:  #B0E2FF;
+    border-radius: 3px;
+    border: solid;
+    border-color: black;
+    width: 465px;
+    color: black;
+
+}
+
+.area_texto:hover{
+    border-color: #34828F;
+    background-color:  white;
+    font-weight: bold;
+}
+
+.area_texto:focus{
+    font-weight: bold;
+    border-color:  	#34828F;
+    background-color:  white;
+}
+/*--------------------ENVIAR--------------------*/
+
+.enviar{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left: 670px ;
+    bottom: 80px;
+    color: black;
+    font-weight: bold;
+    background-color: #B0E2FF;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+
+}
+
+.enviar:hover{
+    background-color: white;
+}
+
+/*--------------------Textos do Form--------------------*/
+
+.textos{
+    font-weight: bold;
+}
+
+/*--------------------Logos Face, Twitter e Whats--------------------*/
+.logo_face{
+
+    width: 15px;
+    height: 15px;
+}
+
+.logo_twitter{
+
+    width: 15px;
+    height: 15px;
+}
+
+.logo_whats{
+
+    width: 15px;
+    height: 15px;
+}
